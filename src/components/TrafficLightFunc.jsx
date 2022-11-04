@@ -27,7 +27,7 @@ function TrafficLightFunc() {
           pos === 2 ? "active" : null
         }`}
       ></div>
-      <button onClick={changeLight}>Change</button>
+      <button onClick={changeLight}>Funk</button>
     </div>
   );
 }

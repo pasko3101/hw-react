@@ -33,7 +33,7 @@ class TrafficLightClass extends React.PureComponent {
             this.state.pos === 2 ? "active" : ""
           }`}
         ></div>
-        <button onClick={this.changeLight}>Change</button>
+        <button onClick={this.changeLight}>Class</button>
       </div>
     );
   }
