@@ -1,6 +1,7 @@
 import { useState } from "react";
 function TrafficLightFunc() {
   const [pos, setPos] = useState(0);
+
   const changeLight = () => {
     if (pos !== 2) {
       setPos(pos + 1);
