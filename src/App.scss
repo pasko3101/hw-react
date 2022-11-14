@@ -35,3 +35,11 @@
     }
   }
 }
+
+.star-rating {
+  display: flex;
+  margin: 15px;
+}
+.star:hover {
+  cursor: pointer;
+}
